@@ -1,0 +1,8 @@
+build/
+install/
+log/
+
+src/*/
+!src/bswarm/
+
+src/bswarm/bswarm/__pycache__/

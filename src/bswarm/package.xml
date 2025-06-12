@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>bswarm</name>
+  <version>0.0.0</version>
+  <description>lorem ipsum</description>
+  <maintainer email="null@email.com">FirstName LastName</maintainer>
+  <license>Apache-2.0</license>
+  
+  <!-- build tools dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <!-- PX4 dependencies -->
+  <build_depend>px4_msgs</build_depend>
+  <exec_depend>px4_msgs</exec_depend>
+  <build_depend>px4_ros_com</build_depend>
+  <exec_depend>px4_ros_com</exec_depend>
+
+  <!-- ROS dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  
+</package>
