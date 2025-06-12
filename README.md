@@ -72,12 +72,10 @@ Build
 In terminal 1:
 
         source install/setup.bash
-        cd src
         ros2 launch bswarm swarm.launch.py
 
 In terminal 2:
 
         source install/setup.bash
-        cd src
         ros2 run bswarm team_controller.py
 
